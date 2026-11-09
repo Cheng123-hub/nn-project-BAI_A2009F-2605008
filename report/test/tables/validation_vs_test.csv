@@ -1,0 +1,5 @@
+metric,validation,test,test_minus_validation
+accuracy,0.8846,0.8600,-0.0246
+macro_f1,0.8539,0.8099,-0.0440
+weighted_f1,0.8841,0.8591,-0.0250
+loss,0.3728,0.4050,+0.0322

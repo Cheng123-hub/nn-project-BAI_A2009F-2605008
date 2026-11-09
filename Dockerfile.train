@@ -1,0 +1,10 @@
+FROM python:3.10.16-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 MPLCONFIGDIR=/tmp/matplotlib
+WORKDIR /app
+COPY requirements-train.txt requirements-test.txt ./
+RUN pip install --no-cache-dir -r requirements-train.txt
+COPY src ./src
+COPY training_config ./training_config
+ENV NNB_DEFAULT_COMMAND=train-final
+ENTRYPOINT ["python", "-m", "src.main"]
+CMD ["train-final"]

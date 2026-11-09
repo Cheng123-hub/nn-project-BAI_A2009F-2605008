@@ -1,0 +1,9 @@
+FROM python:3.10.16-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+WORKDIR /app
+COPY requirements-test.txt ./
+RUN pip install --no-cache-dir -r requirements-test.txt
+COPY src/__init__.py src/utils.py src/main.py src/model.py src/data.py src/evaluate.py src/predict.py src/test.py ./src/
+ENV NNB_DEFAULT_COMMAND=test
+ENTRYPOINT ["python", "-m", "src.main"]
+CMD ["test"]

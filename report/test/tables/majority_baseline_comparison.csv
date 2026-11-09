@@ -1,0 +1,3 @@
+model,test_accuracy,test_macro_f1
+Experiment 4,0.8600,0.8099
+Train-majority: joy,0.3475,0.0860

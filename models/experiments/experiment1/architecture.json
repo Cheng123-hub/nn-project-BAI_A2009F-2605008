@@ -1,0 +1,47 @@
+{
+  "layers": [
+    {
+      "type": "Linear",
+      "input_dim": 10000,
+      "output_dim": 128,
+      "parameters": 1280128,
+      "dropout": null
+    },
+    {
+      "type": "ReLU",
+      "input_dim": 128,
+      "output_dim": 128,
+      "parameters": 0,
+      "dropout": null
+    },
+    {
+      "type": "Dropout",
+      "input_dim": 128,
+      "output_dim": 128,
+      "parameters": 0,
+      "dropout": 0.2
+    },
+    {
+      "type": "Linear",
+      "input_dim": 128,
+      "output_dim": 64,
+      "parameters": 8256,
+      "dropout": null
+    },
+    {
+      "type": "ReLU",
+      "input_dim": 64,
+      "output_dim": 64,
+      "parameters": 0,
+      "dropout": null
+    },
+    {
+      "type": "Linear",
+      "input_dim": 64,
+      "output_dim": 6,
+      "parameters": 390,
+      "dropout": null
+    }
+  ],
+  "trainable_parameters": 1288774
+}

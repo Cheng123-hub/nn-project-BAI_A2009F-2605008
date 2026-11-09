@@ -1,0 +1,6 @@
+source_row_zero_based,text,true_emotion,predicted_emotion,softmax_confidence_uncalibrated
+10,i don t feel particularly agitated,fear,anger,0.9471293091773987
+20,im not sure the feeling of loss will ever go away but it may dull to a sweet feeling of nostalgia at what i shared in this life with my dad and the luck i had to have a dad for years,sadness,joy,0.7376726865768433
+36,i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent,joy,surprise,0.5315490961074829
+40,i feel if i completely hated things i d exercise my democratic right speak my mind in what ever ways possible and try to enact a change,anger,sadness,0.6600160598754883
+49,i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot,fear,sadness,0.8145804405212402

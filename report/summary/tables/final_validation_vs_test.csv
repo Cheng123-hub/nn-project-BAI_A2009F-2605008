@@ -1,0 +1,3 @@
+experiment,split,samples,accuracy,macro_f1,weighted_f1
+experiment4,Validation,1993,0.8845960863020572,0.8539040251084683,0.8841360394033971
+experiment4,Historical Test,2000,0.86,0.8099129641511982,0.8591152444570872

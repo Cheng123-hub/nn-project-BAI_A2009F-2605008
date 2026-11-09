@@ -1,0 +1,4 @@
+split,samples,sadness,joy,love,anger,fear,surprise,missing,min_words,median_words,p95_words,max_words
+train,16000,4666,5362,1304,2159,1937,572,0,2.0,17.0,41.0,66.0
+validation,2000,550,704,178,275,212,81,0,2.0,17.0,40.0,61.0
+test,2000,581,695,159,275,224,66,0,3.0,17.0,41.0,61.0

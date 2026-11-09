@@ -1,0 +1,4 @@
+split,original,missing_or_empty,invalid_label,invalid_text_type,duplicate_text_extra_rows,conflicting_text_groups,conflicting_label_rows_removed,cross_split_rows_removed,within_split_rows_removed,retained
+train,16000,0,0,0,31,30,60,16,1,15923
+validation,2000,0,0,0,2,2,4,3,0,1993
+test,2000,0,0,0,0,0,0,0,0,2000

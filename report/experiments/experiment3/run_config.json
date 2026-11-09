@@ -1,0 +1,18 @@
+{
+  "name": "experiment3",
+  "hidden_dims": [
+    256,
+    64
+  ],
+  "dropout": 0.2,
+  "learning_rate": 0.001,
+  "batch_size": 128,
+  "seed": 42,
+  "epochs": 25,
+  "weight_decay": 0.0001,
+  "class_weights": null,
+  "optimizer": "Adam",
+  "activation": "ReLU",
+  "output_model": "models/experiments/experiment3",
+  "output_report": "report/experiments/experiment3"
+}

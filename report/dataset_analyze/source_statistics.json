@@ -1,0 +1,167 @@
+{
+  "configuration": "split",
+  "labels": [
+    "sadness",
+    "joy",
+    "love",
+    "anger",
+    "fear",
+    "surprise"
+  ],
+  "tfidf": {
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "stop_words": null,
+    "sublinear_tf": true,
+    "lowercase": true
+  },
+  "input_dim": 10000,
+  "class_weights": null,
+  "majority_class": 1,
+  "cleaning_policy": "canonical casefold/whitespace; remove all within-split conflicting-label groups; keep first identical same-label text; retain test > validation > train across splits; no random resplit",
+  "splits": {
+    "train": {
+      "original": 16000,
+      "missing_or_empty": 0,
+      "invalid_label": 0,
+      "invalid_text_type": 0,
+      "valid": 16000,
+      "duplicate_text_extra_rows": 31,
+      "conflicting_text_groups": 30,
+      "original_classes": {
+        "sadness": 4666,
+        "joy": 5362,
+        "love": 1304,
+        "anger": 2159,
+        "fear": 1937,
+        "surprise": 572
+      },
+      "columns": [
+        "text",
+        "label"
+      ],
+      "schema": "text: string\nlabel: int64\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"text\": {\"dtype\": \"string\", \"_type\":' + 112",
+      "conflicting_label_rows_removed": 60,
+      "cross_split_rows_removed": 16,
+      "within_split_rows_removed": 1,
+      "retained": 15923,
+      "retained_classes": {
+        "sadness": 4661,
+        "joy": 5340,
+        "love": 1283,
+        "anger": 2152,
+        "fear": 1923,
+        "surprise": 564
+      },
+      "word_length": {
+        "min": 2.0,
+        "median": 17.0,
+        "p95": 41.0,
+        "max": 66.0
+      },
+      "zero_feature_rows": 0,
+      "mean_nonzero_features": 22.013376876216793
+    },
+    "validation": {
+      "original": 2000,
+      "missing_or_empty": 0,
+      "invalid_label": 0,
+      "invalid_text_type": 0,
+      "valid": 2000,
+      "duplicate_text_extra_rows": 2,
+      "conflicting_text_groups": 2,
+      "original_classes": {
+        "sadness": 550,
+        "joy": 704,
+        "love": 178,
+        "anger": 275,
+        "fear": 212,
+        "surprise": 81
+      },
+      "columns": [
+        "text",
+        "label"
+      ],
+      "schema": "text: string\nlabel: int64\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"text\": {\"dtype\": \"string\", \"_type\":' + 112",
+      "conflicting_label_rows_removed": 4,
+      "cross_split_rows_removed": 3,
+      "within_split_rows_removed": 0,
+      "retained": 1993,
+      "retained_classes": {
+        "sadness": 550,
+        "joy": 702,
+        "love": 176,
+        "anger": 274,
+        "fear": 211,
+        "surprise": 80
+      },
+      "word_length": {
+        "min": 2.0,
+        "median": 17.0,
+        "p95": 40.0,
+        "max": 61.0
+      },
+      "zero_feature_rows": 0,
+      "mean_nonzero_features": 21.122428499749123
+    },
+    "test": {
+      "original": 2000,
+      "missing_or_empty": 0,
+      "invalid_label": 0,
+      "invalid_text_type": 0,
+      "valid": 2000,
+      "duplicate_text_extra_rows": 0,
+      "conflicting_text_groups": 0,
+      "original_classes": {
+        "sadness": 581,
+        "joy": 695,
+        "love": 159,
+        "anger": 275,
+        "fear": 224,
+        "surprise": 66
+      },
+      "columns": [
+        "text",
+        "label"
+      ],
+      "schema": "text: string\nlabel: int64\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"text\": {\"dtype\": \"string\", \"_type\":' + 112",
+      "conflicting_label_rows_removed": 0,
+      "cross_split_rows_removed": 0,
+      "within_split_rows_removed": 0,
+      "retained": 2000,
+      "retained_classes": {
+        "sadness": 581,
+        "joy": 695,
+        "love": 159,
+        "anger": 275,
+        "fear": 224,
+        "surprise": 66
+      },
+      "word_length": {
+        "min": 3.0,
+        "median": 17.0,
+        "p95": 41.0,
+        "max": 61.0
+      },
+      "zero_feature_rows": 0,
+      "mean_nonzero_features": 21.595
+    }
+  },
+  "raw_cross_split_overlap": {
+    "train__validation": {
+      "text_groups": 5,
+      "different_label_sets": 5
+    },
+    "train__test": {
+      "text_groups": 11,
+      "different_label_sets": 11
+    },
+    "validation__test": {
+      "text_groups": 3,
+      "different_label_sets": 3
+    }
+  }
+}

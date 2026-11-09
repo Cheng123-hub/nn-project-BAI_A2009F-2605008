@@ -1,0 +1,31 @@
+=== Experiment: experiment2 ===
+Model: MLP | Hidden Layers: [256, 64] | Activation: ReLU | Dropout: 0.4
+Optimizer: Adam | Learning Rate: 0.001 | Weight Decay: 0.0
+Batch Size: 128 | Seed: 42 | Epochs: 25
+
+epoch 1/25 training accuracy=0.6306 validation accuracy=0.6001 validation-macro-F1=0.2753 training loss=0.896747 validation loss=1.005981
+epoch 2/25 training accuracy=0.9473 validation accuracy=0.8595 validation-macro-F1=0.7325 training loss=0.181302 validation loss=0.430690
+epoch 3/25 training accuracy=0.9907 validation accuracy=0.8786 validation-macro-F1=0.8336 training loss=0.067908 validation loss=0.390082
+epoch 4/25 training accuracy=0.9959 validation accuracy=0.8776 validation-macro-F1=0.8429 training loss=0.028392 validation loss=0.403380
+epoch 5/25 training accuracy=0.9982 validation accuracy=0.8761 validation-macro-F1=0.8403 training loss=0.013121 validation loss=0.440394
+epoch 6/25 training accuracy=0.9991 validation accuracy=0.8710 validation-macro-F1=0.8386 training loss=0.007318 validation loss=0.470109
+epoch 7/25 training accuracy=0.9992 validation accuracy=0.8726 validation-macro-F1=0.8376 training loss=0.004619 validation loss=0.493305
+epoch 8/25 training accuracy=0.9995 validation accuracy=0.8761 validation-macro-F1=0.8423 training loss=0.003252 validation loss=0.504263
+epoch 9/25 training accuracy=0.9997 validation accuracy=0.8761 validation-macro-F1=0.8420 training loss=0.002239 validation loss=0.522103
+epoch 10/25 training accuracy=0.9998 validation accuracy=0.8726 validation-macro-F1=0.8385 training loss=0.001667 validation loss=0.547492
+epoch 11/25 training accuracy=0.9998 validation accuracy=0.8771 validation-macro-F1=0.8420 training loss=0.001273 validation loss=0.565888
+epoch 12/25 training accuracy=0.9997 validation accuracy=0.8705 validation-macro-F1=0.8354 training loss=0.001028 validation loss=0.577423
+epoch 13/25 training accuracy=0.9998 validation accuracy=0.8721 validation-macro-F1=0.8360 training loss=0.000876 validation loss=0.599671
+epoch 14/25 training accuracy=0.9999 validation accuracy=0.8705 validation-macro-F1=0.8320 training loss=0.000740 validation loss=0.617116
+epoch 15/25 training accuracy=0.9999 validation accuracy=0.8741 validation-macro-F1=0.8381 training loss=0.000654 validation loss=0.624796
+epoch 16/25 training accuracy=0.9999 validation accuracy=0.8741 validation-macro-F1=0.8375 training loss=0.000536 validation loss=0.629929
+epoch 17/25 training accuracy=0.9999 validation accuracy=0.8726 validation-macro-F1=0.8360 training loss=0.000499 validation loss=0.646415
+epoch 18/25 training accuracy=0.9999 validation accuracy=0.8731 validation-macro-F1=0.8390 training loss=0.000419 validation loss=0.648193
+epoch 19/25 training accuracy=0.9999 validation accuracy=0.8746 validation-macro-F1=0.8402 training loss=0.000389 validation loss=0.664718
+epoch 20/25 training accuracy=0.9999 validation accuracy=0.8746 validation-macro-F1=0.8415 training loss=0.000389 validation loss=0.696273
+epoch 21/25 training accuracy=0.9999 validation accuracy=0.8736 validation-macro-F1=0.8403 training loss=0.000359 validation loss=0.686101
+epoch 22/25 training accuracy=0.9999 validation accuracy=0.8695 validation-macro-F1=0.8347 training loss=0.000415 validation loss=0.700939
+epoch 23/25 training accuracy=0.9999 validation accuracy=0.8746 validation-macro-F1=0.8396 training loss=0.000367 validation loss=0.705489
+epoch 24/25 training accuracy=0.9999 validation accuracy=0.8721 validation-macro-F1=0.8382 training loss=0.000325 validation loss=0.695464
+epoch 25/25 training accuracy=0.9999 validation accuracy=0.8721 validation-macro-F1=0.8367 training loss=0.000301 validation loss=0.701067
+Best epoch: 4 | Checkpoint: models/experiments/experiment2/model.pt | Validation Macro-F1: 0.842913
