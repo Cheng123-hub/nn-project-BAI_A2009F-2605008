@@ -8,9 +8,13 @@ Each model folder contains its checkpoint and architecture. The fitted vectorize
 
 ## Copying the project
 
-### Copy to another folder or computer
+### Clone the project from GitHub
 
-The simplest option is to copy the entire `source-code/` folder. Do not copy only `model.pt`: inference also needs the matching `architecture.json` and the root-level `vectorizer.joblib`. Data and models may not be included in the Git repository, so cloning the repository alone may not provide everything needed to run the project.
+Clone the complete repository with:
+
+```powershell
+git clone https://github.com/Cheng123-hub/nn-project-BAI_A2009F-2605008.git
+```
 
 For Test evaluation on another computer, copy at least:
 
